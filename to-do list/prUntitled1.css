@@ -1,0 +1,18 @@
+.progress-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#progress-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#progress-table th, #progress-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}

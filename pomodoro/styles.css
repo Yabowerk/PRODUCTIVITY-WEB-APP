@@ -1,0 +1,107 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+   
+    height: 100vh;
+    margin: 0;
+    background-image: url('path/to/your/background-image.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(26, 82, 223, 0.9); /* Slightly transparent white for better visibility */
+    padding: 40px; /* Padding for spacing inside the container */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+    width: 500px; /* Increased width for a larger container */
+}
+
+.container:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+.aboutas:hover{
+
+    transform: scale(1.02); /* Slightly enlarge on hover */
+
+
+}
+
+h1 {
+    color: #4a90e2; /* Blue color for the title */
+    margin-bottom: 20px;
+}
+
+/* Styles for the circular timer display */
+.timer-circle {
+    position: relative; /* Position relative to position timer text on top */
+}
+
+#timer-display {
+    font-size: 48px; /* Font size for timer display */
+    color: #e94e77; /* Pink color for the timer display text */
+    position: absolute; /* Position it over the circle */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to truly center it */
+}
+
+#progress-ring {
+    transition: stroke-dashoffset 0.1s linear; /* Smooth transition for stroke offset changes */
+}
+
+/* Flexbox for settings layout */
+.settings {
+    display: flex; /* Use flexbox to arrange items side by side */
+    justify-content: space-between; /* Space between items */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Darker text for better readability */
+}
+
+input[type="number"], select {
+    width: 80px; /* Set width for input fields and select box */
+    padding: 10px; /* Increased padding for input fields */
+    border-radius: 5px; /* Rounded input fields */
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+/* Button styles */
+button {
+    padding: 12px 24px; /* Increased padding for buttons */
+    margin-top: 10px;
+    margin-right: 10px; /* Space between buttons */
+    font-size: 18px; /* Increased font size for buttons */
+    cursor: pointer;
+    border-radius: 5px; /* Rounded buttons */
+    border: none; /* Remove default border */
+}
+
+button#start-btn {
+    background-color: #4caf50; /* Green background for start button */
+}
+
+button#start-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+button#reset-btn {
+    background-color: #f44336; /* Red background for reset button */
+}
+
+button#reset-btn:hover {
+    background-color: #e53935; /* Darker red on hover */
+}
+jumbotron{
+background-color: #45a049;
+
+
+}
